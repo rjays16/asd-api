@@ -1,0 +1,21 @@
+<?php
+/**
+ * Load this file to initiate the SDK
+ */
+require_once('vendor/autoload.php');
+require_once('datatype/lockedstring.php');
+require_once('interface/restrictInterface.php');
+require_once('interface/payinterface.php');
+require_once('interface/ecinterface.php');
+require_once('interface/refundinterface.php');
+require_once('abstract/restrict.php');
+require_once('classes/utilities.php');
+require_once('classes/client.php');
+require_once('classes/customer.php');
+require_once('classes/billing.php');
+require_once('classes/shipping.php');
+require_once('classes/item.php');
+require_once('classes/order.php');
+require_once('methods/pay.php');
+require_once('methods/ec.php');
+require_once('methods/refund.php');
