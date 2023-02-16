@@ -1,0 +1,13 @@
+<?php
+
+return [
+    'APP_URL' => env('APP_URL'),
+    'CONVENTION_URL' => env('CONVENTION_URL'),
+    'DEFAULT_IMG' => env('DEFAULT_IMG'),
+    
+    'DEFAULT_MEMBER_PASSWORD' => env('DEFAULT_MEMBER_PASSWORD'),
+    'DEFAULT_ADMIN_PASSWORD' => env('DEFAULT_ADMIN_PASSWORD'),
+
+    'FOREX_USD_URL' => env('FOREX_USD_URL'),
+    'CREATE_FOREX' => env('CREATE_FOREX', true)
+];
